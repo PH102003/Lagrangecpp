@@ -9,7 +9,7 @@ int main(){
     double point = 2.5;  // ponto a ser interpolado
 
     double valorInterpolado = lagrange(x, y, point);
-    std::cout << "valor a ser interpolado em:" << point << ": " << valorInterpolado << std::endl;
+    std::cout << "valor a ser interpolado em: " << point << ": " << valorInterpolado << std::endl;
 
     return 0;
 }
