@@ -5,16 +5,18 @@
 double lagrange(const std::vector<double>& x, const std::vector<double>& y, double point){
     //variavel resultado
     double r = 0.0;
-
+    //numero de "n"
     double n = x.size();
-    for(int i = 0; i < n; i++){
+    //loop para ver todos os pontos possiveis para "x"
+    for(int i = 0; i < n; ++i){
         //numero de yi
         double yi = y[i];
-        for(int j = 0; j < n; j++){
+        for(int j = 0; j < n; ++j){
             if(j != i){
                 yi *= (point - x[j])/(x[i] - x[j]);
             }
         }
+        r += yi;
     }
-    return 0;
+    return r;
 }

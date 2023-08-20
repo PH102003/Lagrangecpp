@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/pedro/lagrangeA",
-      "program": "c:/Users/pedro/lagrangeA/build/Debug/outDebug",
+      "cwd": "C:\\Users\\pedro\\lagrangeA\\.vscode\\launch.json", // O diretório de trabalho é o diretório do projeto
+      "program": "C:\\Users\\pedro\\lagrangeA\\programa.exe", // Caminho absoluto para o executável
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
